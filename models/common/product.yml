@@ -3,6 +3,8 @@ type: object
 properties:
   add_to_cart_url:
     type: string
+  add_to_wishlist_url:
+    type: string
   availability:
     type: string
   brand:

@@ -66,7 +66,7 @@ properties:
                 type: string
         message:
           type: string
-        '':
+        type:
           type: string
   gift_wrapping_cost:
     type: object

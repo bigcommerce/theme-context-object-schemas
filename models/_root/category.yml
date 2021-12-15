@@ -9,8 +9,6 @@ properties:
     type: array
     items:
       type: object
-  count:
-    type: integer
   description:
     type: string
     description: Merchant-defined description of the category.
@@ -43,6 +41,10 @@ properties:
     type: array
     items:
       $ref: ../common/product.yml
+  search_error:
+    type: array
+    items:
+      type: object
   selected:
     type: array
     description: Selected search facets.
