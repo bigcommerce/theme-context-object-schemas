@@ -2,26 +2,17 @@
   "items": [
     {
       "type": "item",
-      "title": "theme-styles.yaml",
-      "uri": "reference/theme-styles.yaml"
-    },
-    {
-      "type": "divider",
-      "title": "Schemas"
-    },
-    {
-      "type": "item",
-      "title": "banners.yml",
+      "title": "banners",
       "uri": "models/_root/banners.yml"
     },
     {
       "type": "item",
-      "title": "blog.yml",
+      "title": "blog",
       "uri": "models/_root/blog.yml"
     },
     {
       "type": "item",
-      "title": "brand.yml",
+      "title": "brand",
       "uri": "models/_root/brand.yml"
     },
     {
@@ -36,27 +27,27 @@
     },
     {
       "type": "item",
-      "title": "breadcrumbs.yml",
+      "title": "breadcrumbs",
       "uri": "models/_root/breadcrumbs.yml"
     },
     {
       "type": "item",
-      "title": "carousel.yml",
+      "title": "carousel",
       "uri": "models/_root/carousel.yml"
     },
     {
       "type": "item",
-      "title": "cart.yml",
+      "title": "cart",
       "uri": "models/_root/cart.yml"
     },
     {
       "type": "item",
-      "title": "cart_id.yml",
+      "title": "cart_id",
       "uri": "models/_root/cart_id.yml"
     },
     {
       "type": "item",
-      "title": "categories.yml",
+      "title": "categories",
       "uri": "models/_root/categories.yml"
     },
     {
@@ -71,7 +62,7 @@
     },
     {
       "type": "item",
-      "title": "checkout.yml",
+      "title": "checkout",
       "uri": "models/_root/checkout.yml"
     },
     {
@@ -86,42 +77,42 @@
     },
     {
       "type": "item",
-      "title": "countries.yml",
+      "title": "countries",
       "uri": "models/_root/countries.yml"
     },
     {
       "type": "item",
-      "title": "create_account.yml",
+      "title": "create_account",
       "uri": "models/_root/create_account.yml"
     },
     {
       "type": "item",
-      "title": "currency_selector.yml",
+      "title": "currency_selector",
       "uri": "models/_root/currency_selector.yml"
     },
     {
       "type": "item",
-      "title": "customer.yml",
+      "title": "customer",
       "uri": "models/_root/customer.yml"
     },
     {
       "type": "item",
-      "title": "customer_group_id.yml",
+      "title": "customer_group_id",
       "uri": "models/_root/customer_group_id.yml"
     },
     {
       "type": "item",
-      "title": "customer_group_name.yml",
+      "title": "customer_group_name",
       "uri": "models/_root/customer_group_name.yml"
     },
     {
       "type": "item",
-      "title": "downloads.yml",
+      "title": "downloads",
       "uri": "models/_root/downloads.yml"
     },
     {
       "type": "item",
-      "title": "faceted_search.yml",
+      "title": "faceted_search",
       "uri": "models/_root/faceted_search.yml"
     },
     {
@@ -131,47 +122,47 @@
     },
     {
       "type": "item",
-      "title": "forms.yml",
+      "title": "forms",
       "uri": "models/_root/forms.yml"
     },
     {
       "type": "item",
-      "title": "head.yml",
+      "title": "head",
       "uri": "models/_root/head.yml"
     },
     {
       "type": "item",
-      "title": "is_ajax.yml",
+      "title": "is_ajax",
       "uri": "models/_root/is_ajax.yml"
     },
     {
       "type": "item",
-      "title": "order.yml",
+      "title": "order",
       "uri": "models/_root/order.yml"
     },
     {
       "type": "item",
-      "title": "page.yml",
+      "title": "page",
       "uri": "models/_root/page.yml"
     },
     {
       "type": "item",
-      "title": "page_type.yml",
+      "title": "page_type",
       "uri": "models/_root/page_type.yml"
     },
     {
       "type": "item",
-      "title": "pages.yml",
+      "title": "pages",
       "uri": "models/_root/pages.yml"
     },
     {
       "type": "item",
-      "title": "pagination.yml",
+      "title": "pagination",
       "uri": "models/_root/pagination.yml"
     },
     {
       "type": "item",
-      "title": "product.yml",
+      "title": "product",
       "uri": "models/_root/product.yml"
     },
     {
@@ -181,12 +172,12 @@
     },
     {
       "type": "item",
-      "title": "products.yml",
+      "title": "products",
       "uri": "models/_root/products.yml"
     },
     {
       "type": "item",
-      "title": "remote_api_scripts.yml",
+      "title": "remote_api_scripts",
       "uri": "models/_root/remote_api_scripts.yml"
     },
     {
@@ -196,12 +187,12 @@
     },
     {
       "type": "item",
-      "title": "shipments.yml",
+      "title": "shipments",
       "uri": "models/_root/shipments.yml"
     },
     {
       "type": "item",
-      "title": "shipping_messages.yml",
+      "title": "shipping_messages",
       "uri": "models/_root/shipping_messages.yml"
     },
     {
@@ -211,37 +202,37 @@
     },
     {
       "type": "item",
-      "title": "sitemap.yml",
+      "title": "sitemap",
       "uri": "models/_root/sitemap.yml"
     },
     {
       "type": "item",
-      "title": "social_media.yml",
+      "title": "social_media",
       "uri": "models/_root/social_media.yml"
     },
     {
       "type": "item",
-      "title": "template_file.yml",
+      "title": "template_file",
       "uri": "models/_root/template_file.yml"
     },
     {
       "type": "item",
-      "title": "theme_settings.yml",
+      "title": "theme_settings",
       "uri": "models/_root/theme_settings.yml"
     },
     {
       "type": "item",
-      "title": "urls.yml",
+      "title": "urls",
       "uri": "models/_root/urls.yml"
     },
     {
       "type": "item",
-      "title": "vault.yml",
+      "title": "vault",
       "uri": "models/_root/vault.yml"
     },
     {
       "type": "item",
-      "title": "wishlist.yml",
+      "title": "wishlist",
       "uri": "models/_root/wishlist.yml"
     }
   ]
