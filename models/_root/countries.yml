@@ -6,12 +6,36 @@ type: array
 items:
   type: object
   properties:
-    code:
+    currency:
       description: country code
+      type: array
+      items:
+        type: object
+        properties:
+          code:
+            type: string
+            example: ALL
+          name:
+            type: string
+            example: Lek
+          symbol:
+            type: string
+            example: Lek
+          '':
+            type: string
+    id:
       type: string
-    label:
       description: country name that appears in the drop-down
+      example: '2'
+    iso2:
       type: string
-    value:
       description: country name
+      example: AL
+    iso3:
       type: string
+      example: ALB
+    name:
+      type: string
+      example: Albania
+    selected:
+      type: boolean
