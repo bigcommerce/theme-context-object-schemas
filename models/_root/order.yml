@@ -218,3 +218,5 @@ properties:
               type:
                 - integer
                 - number
+  brand:
+    type: string
