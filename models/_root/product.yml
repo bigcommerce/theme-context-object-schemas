@@ -1,5 +1,6 @@
 description: |-
-  Default property that provides detailed product data. Called on the default `templates/pages/product.html` templates, and on several partials in the `templates/components/` subdirectory:
+  Default property that provides detailed product data. Called on the default `templates/pages/product.html` template, and on several partials in the `templates/components/` subdirectory:
+
 
   `account/returns-list.html`,
   `cart/item-options.html`,
