@@ -40,7 +40,7 @@ properties:
           description: 'The name of the company, product line, or trademark.'
         url:
           type: string
-          description: The store's internal page with all the products from that brand.
+          description: The storeʼs internal page with all the products from that brand.
   bulk_discount_rates:
     description: List of discount rates for the current product
     type: array
@@ -65,7 +65,7 @@ properties:
     items:
       type: object
   depth:
-    description: The product's physical depth measurement.
+    description: The productʼs physical depth measurement.
     type: string
   description:
     description: (HTML) description of the product
@@ -80,7 +80,7 @@ properties:
     description: 'Global Trade Item Number. An identifier for trade items that is incorporated into several product identification standards, such as ISBN, UPC, and EAN.'
     type: string
   height:
-    description: The product's physical height measurement.
+    description: The productʼs physical height measurement.
     type: string
   id:
     description: Unique ID for the product
@@ -172,7 +172,7 @@ properties:
     description: Optional warranty text set by the merchant
     type: string
   width:
-    description: The product's physical width measurement.
+    description: The productʼs physical width measurement.
     type: string
   custom_fields:
     type: array
