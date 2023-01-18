@@ -25,7 +25,7 @@ properties:
               description: String containing HTML attributes associated with this button.
             service:
               type: string
-              description: 'String containing the name of this button''s social-media service (facebook, email, print, twitter, linkedin, google, etc.)'
+              description: 'String containing the name of this buttonʼs social-media service (facebook, email, print, twitter, linkedin, google, etc.)'
   address:
     type: string
     description: 'Store’s complete physical address, as entered by merchant in the Store Profile.'
@@ -52,11 +52,11 @@ properties:
 
   display_date_format:
     type: string
-    description: 'Brief display format/pattern for dates, as configured in the control panel's Display Date Format field.'
+    description: 'Brief display format/pattern for dates, as configured in the control panelʼs Display Date Format field.'
 
   extended_display_date_format:
     type: string
-    description: 'Extended display format/pattern for dates, as configured in the control panel's Extended Display Date Format field.'
+    description: 'Extended display format/pattern for dates, as configured in the control panelʼs Extended Display Date Format field.'
 
   facebook_like_button:
     type: object
@@ -86,13 +86,13 @@ properties:
     properties:
       header:
         type: 'null'
-        description: 'If store is in maintenance mode, string containing header text for the "Down for Maintenance" window displayed to visitors; otherwise, null'
+        description: 'If store is in maintenance mode, string containing header text for the **Down for Maintenance** window displayed to visitors; otherwise, null.'
       message:
         type: 'null'
-        description: 'If store is in maintenance mode, string containing merchant-customizable body text (and optionally, HTML) for the "Down for Maintenance" window displayed to visitors; otherwise, null'
+        description: 'If store is in maintenance mode, string containing merchant-customizable body text (and optionally, HTML) for the **Down for Maintenance** window displayed to visitors; otherwise, null.'
       notice:
         type: 'null'
-        description: 'If store is in maintenance mode, one of three strings identifying the store''s status, and generating a corresponding text notice to merchants about how to proceed: AdminPrelaunchNotice for preview stores, AdminMaintenanceNotice for active stores taken down for maintenance, or AdminHibernationModeNotice for deactivated stores; otherwise, null'
+        description: 'If store is in maintenance mode, one of three strings identifying the storeʼs status, and generating a corresponding text notice to merchants about how to proceed: AdminPrelaunchNotice for preview stores, AdminMaintenanceNotice for active stores taken down for maintenance, or AdminHibernationModeNotice for deactivated stores; otherwise, null.'
       password:
         type: 'null'
       securePath:
@@ -168,10 +168,10 @@ properties:
         description: Hostname of the request.
       is_crawler:
         type: boolean
-        description: Renders "true" if user agent is known crawler; "false" otherwise.
+        description: Renders `true` if user agent is known crawler; otherwise, `false`.
       locale:
         type: string
-        description: "\tThe browser's locale. Allows for varying experience based on shopper locale."
+        description: The browserʼs locale. Allows for varying experience based on shopper locale.
       origin:
         type: string
         description: Origin of the request.
@@ -215,7 +215,7 @@ properties:
     description: Site-wide boolean value that indicates whether to allow customers to create wishlists.
   store_dst_correction:
     type: integer
-    description: 'Whether or not this time zone observes Daylight Saving Time (boolean), as set by the control panel's Enable DST Correction check box.'
+    description: 'Whether or not this time zone observes Daylight Saving Time (boolean), as set by the control panelʼs Enable DST Correction check box.'
 
   store_hash:
     type: string
@@ -226,7 +226,7 @@ properties:
     properties:
       title:
         type: string
-        description: "\tTitle for the logo – the text configured in the control panel under Storefront Design Design Options Logo."
+        description: Title for the logo. Configure the text in the control panel under Storefront Design Design Options Logo.
       image:
         $ref: ../common/image.yml
   store_name:
@@ -234,8 +234,7 @@ properties:
     description: Name of the BigCommerce store.
   store_time_zone:
     type: string
-    description: 'Store's time zone, as selected in the control panel's Your Timezone drop-down list.'
-
+    description: 'Storeʼs time zone, as selected in the control panelʼs Your Timezone dropdown list.'
   storefront_api:
     type: object
     properties:
