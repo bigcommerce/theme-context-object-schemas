@@ -28,13 +28,15 @@ properties:
               description: 'String containing the name of this buttonʼs social-media service (facebook, email, print, twitter, linkedin, google, etc.)'
   address:
     type: string
-    description: 'Store’s complete physical address, as entered by merchant in the Store Profile.'
+    description: 'Store’s complete physical address, as entered by merchant in the store profile.'
+
   base_url:
     type: string
     description: The normal shop URL.
   blog_enabled:
     type: boolean
-    description: Site-wide boolean value that indicates whether the blog is visible for this store.
+    description: Site-wide boolean value that indicates whether the blog is visible for this storefront.
+
   bulk_discount_enabled:
     type: boolean
     description: Boolean that return true if bulk discount is enabled on products.
@@ -42,13 +44,15 @@ properties:
     type: string
   client_ip_address:
     type: string
-    description: IP address of the customer browsing the store.
+    description: IP address of the customer browsing the storefront.
+
   country_code:
     type: string
     description: The country code corresponding to the IP.
   data_tag_enabled:
     type: boolean
-    description: 'Site-wide boolean that indicates whether GAEE is enabled in a theme. For {{settings.data_tag_enabled}} to be true, the enhanced_ecommerce key must be present in config.json and a GAEE experiment must be enabled along with GA property value set in Advanced Settings > Analytics > GA in the BigCommerce control panel.'
+    description: 'Site-wide boolean that indicates whether GAEE is enabled in a theme. For {{settings.data_tag_enabled}} to be true, the enhanced_ecommerce key must be present in config.json and a GAEE experiment must be enabled along with GA property value set in Advanced Settings > Analytics > GA in the store control panel.'
+
 
   display_date_format:
     type: string
