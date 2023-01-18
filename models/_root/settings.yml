@@ -29,14 +29,12 @@ properties:
   address:
     type: string
     description: 'Store’s complete physical address, as entered by merchant in the store profile.'
-
   base_url:
     type: string
     description: The normal shop URL.
   blog_enabled:
     type: boolean
     description: Site-wide boolean value that indicates whether the blog is visible for this storefront.
-
   bulk_discount_enabled:
     type: boolean
     description: Boolean that return true if bulk discount is enabled on products.
@@ -45,7 +43,6 @@ properties:
   client_ip_address:
     type: string
     description: IP address of the customer browsing the storefront.
-
   country_code:
     type: string
     description: The country code corresponding to the IP.
