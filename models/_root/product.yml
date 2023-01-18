@@ -9,7 +9,8 @@ description: |-
   *`products/price.html`
   *`products/product-view.html`
  
-  **Handlebars Expression** {{product}}
+  **Handlebars Expression**: `{{product}}`
+
 type: object
 properties:
   AddThisServiceButtonMeta:
