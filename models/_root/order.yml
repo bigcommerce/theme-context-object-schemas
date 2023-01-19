@@ -1,8 +1,167 @@
 description: |-
-  `{{order}}` object available to templates and components with order context
+  The `{{order}}` object available to templates and components with order context.
 
-  **Handlebars Expression** {{order}}
+  **Handlebars Expression**: `{{order}}`
 type: object
+examples:
+  - billing_address:
+      address_lines:
+        - string
+      city: string
+      company: string
+      country: string
+      email: string
+      full_name: string
+      phone: string
+      state: string
+      zip: string
+    comments: string
+    date: string
+    has_multiple_shipping_addresses: true
+    id: 0
+    invoice_url: string
+    is_complete: true
+    is_digital: string
+    items:
+      - gift_wrapping_name: string
+        image:
+          alt: string
+          data: string
+        name: string
+        options:
+          - name: string
+            value: string
+        order_product_id: string
+        price:
+          currency: string
+          formatted: string
+          value: 0
+        quantity: 0
+        refunded: true
+        refunded_qty: 0
+        reorder_message: string
+        return_url: string
+        shipping_rows:
+          - {}
+        show_reorder: true
+        sku: string
+        total:
+          currency: string
+          formatted: string
+          value: 0
+        type: string
+    last_updated: string
+    order_instructions: string
+    payment_method: string
+    reorder_url: string
+    return_url: string
+    returns_enabled: 0
+    shipping_address:
+      address_lines:
+        - string
+      city: string
+      company: string
+      country: string
+      email: string
+      full_name: string
+      phone: string
+      state: string
+      zip: string
+    shipping_address_count: string
+    shipping_method: string
+    status: string
+    status_messages:
+      - {}
+    status_text: string
+    total:
+      currency: string
+      formatted: string
+      value: 0
+    total_rows:
+      - label: string
+        value:
+          currency: string
+          formatted: string
+          value: 0
+  - billing_address:
+      address_lines:
+        - string
+      city: string
+      company: string
+      country: string
+      email: string
+      full_name: string
+      phone: string
+      state: string
+      zip: string
+    comments: string
+    date: string
+    has_multiple_shipping_addresses: true
+    id: 0
+    invoice_url: string
+    is_complete: true
+    is_digital: string
+    items:
+      - gift_wrapping_name: string
+        image:
+          alt: string
+          data: string
+        name: string
+        options:
+          - name: string
+            value: string
+        order_product_id: string
+        price:
+          currency: string
+          formatted: string
+          value: 0
+        quantity: 0
+        refunded: true
+        refunded_qty: 0
+        reorder_message: string
+        return_url: string
+        shipping_rows:
+          - {}
+        show_reorder: true
+        sku: string
+        total:
+          currency: string
+          formatted: string
+          value: 0
+        type: string
+    last_updated: string
+    order_instructions: string
+    payment_method: string
+    reorder_url: string
+    return_url: string
+    returns_enabled: 0
+    shipping_address:
+      address_lines:
+        - string
+      city: string
+      company: string
+      country: string
+      email: string
+      full_name: string
+      phone: string
+      state: string
+      zip: string
+    shipping_address_count: string
+    shipping_method: string
+    status: string
+    status_messages:
+      - {}
+    status_text: string
+    total:
+      currency: string
+      formatted: string
+      value: 0
+    total_rows:
+      - label: string
+        value:
+          currency: string
+          formatted: string
+          value: 0
 properties:
   billing_address:
     type: object
@@ -10,37 +169,35 @@ properties:
     properties:
       address_lines:
         type: array
-        description: Customer's billing address
+        description: Customerʼs billing address
         items:
           type: string
       city:
         type: string
-        description: Customer's billing city
+        description: Customerʼs billing city
       company:
         type: string
-        description: Customer's billing company name
+        description: Customerʼs billing company name
       country:
         type: string
         description: Customer billing country
       email:
         type: string
-        description: Customer's billing email
+        description: Customerʼs billing email
       full_name:
         type: string
-        description: Customer's billing name
+        description: Customerʼs billing name
       phone:
         type: string
         description: Customer billing phone number
       state:
         type: string
-        description: Customer's billing state
+        description: Customerʼs billing state
       zip:
         type: string
         description: Customer billing ZIP
   comments:
-    type: array
-    items:
-      type: object
+    type: string
   date:
     type: string
     description: Date of the order
@@ -146,33 +303,33 @@ properties:
     properties:
       address_lines:
         type: array
-        description: Customer's shipping address
+        description: Customerʼs shipping address
         items:
           type: string
       city:
         type: string
-        description: Customer's shipping city
+        description: Customerʼs shipping city
       company:
         type: string
-        description: Customer's shipping company name
+        description: Customerʼs shipping company name
       country:
         type: string
-        description: Customer's shipping country
+        description: Customerʼs shipping country
       email:
         type: string
-        description: Customer's email
+        description: Customerʼs email
       full_name:
         type: string
-        description: Customer's shipping name
+        description: Customerʼs shipping name
       phone:
         type: string
-        description: Customer's shipping phone number
+        description: Customerʼs shipping phone number
       state:
         type: string
-        description: Customer's shipping state
+        description: Customerʼs shipping state
       zip:
         type: string
-        description: Customer's shipping zip
+        description: Customerʼs shipping zip
   shipping_address_count:
     type: string
     description: Number of shipping addresses the customer has specified for this order.
@@ -220,3 +377,53 @@ properties:
               type:
                 - integer
                 - number
+  pickup_address:
+    type: object
+    properties:
+      location:
+        type: object
+        properties:
+          name:
+            type: string
+            example: Location 1 - override
+          code:
+            type: string
+            example: LOCATION-1 - override
+          address_line_1:
+            type: string
+            example: 123 Main Street - override
+          address_line_2:
+            type: string
+            example: Suite 101 - override
+          city:
+            type: string
+            example: Austin - override
+          state:
+            type: string
+            example: Texas - override
+          postal_code:
+            type: string
+            example: 78726 - override
+          country_alpha2:
+            type: string
+            example: US
+          email:
+            type: string
+            example: location1@example.com - override
+          phone:
+            type: string
+            example: +1 111-111-1111 - override
+      collection_time_description:
+        type: string
+        example: 9am - 6pm - override
+      collection_instructions:
+        type: string
+        example: Bring your ID - override
+      pickup_method_display_name:
+        type: string
+        example: Pick Up - override
+      pickup_method_id:
+        type: number
+        example: 1
+  brand:
+    type: string
