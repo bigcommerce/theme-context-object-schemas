@@ -7,7 +7,7 @@ items:
   type: object
   properties:
     currency:
-      description: country code
+      description: Details about the currency associated with the country.
       type: array
       items:
         type: object
@@ -24,12 +24,12 @@ items:
           '':
             type: string
     id:
-      type: string
-      description: country name that appears in the drop-down
-      example: '2'
+      type: integer
+      description: The country ID; BigCommerce-generated.
+      example: 2
     iso2:
       type: string
-      description: country name
+      description: The countryʼs [ISO 3166 Alpha-2](https://www.iso.org/iso-3166-country-codes.html) code.
       example: AL
     iso3:
       type: string
