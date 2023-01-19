@@ -14,15 +14,17 @@ items:
         properties:
           code:
             type: string
-            example: ALL
+            description: The [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html) currency code.
+            length: 3
+            example: GBP
           name:
             type: string
-            example: Lek
+            description: Name of the currency.
+            example: Pound Sterling
           symbol:
             type: string
-            example: Lek
-          '':
-            type: string
+            description: The symbol for the currencyʼs primary display unit.
+            example: £
     id:
       type: integer
       description: The country ID; BigCommerce-generated.
@@ -30,12 +32,14 @@ items:
     iso2:
       type: string
       description: The countryʼs [ISO 3166 Alpha-2](https://www.iso.org/iso-3166-country-codes.html) code.
-      example: AL
+      example: GB
     iso3:
       type: string
-      example: ALB
+      description: The countryʼs [ISO 3166 Alpha-3](https://www.iso.org/iso-3166-country-codes.html) code.
+      example: GBR
     name:
       type: string
-      example: Albania
+      description: The countryʼs display name.
+      example: United Kingdom
     selected:
       type: boolean
