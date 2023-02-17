@@ -1,4 +1,4 @@
-```json
+```json filename="banners" showLineNumbers copy
 {
   "banners": {
     "bottom": [
