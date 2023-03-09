@@ -241,3 +241,45 @@ properties:
     allOf:
       -$ref: ./wishlist.yml
     type: object
+  posts: 
+    description: 
+    allOf:
+      -$ref: ./posts.yml
+    type: object 
+  cartItems:
+    description:
+    allOf:
+      -$ref: ./cartItems.yml
+    type: object
+  cartStatusMessage: 
+    description: 
+    allOf: 
+      -$ref: ./cartStatusMessage.yml 
+  shop_by_price: 
+    decription: 
+    allOf: 
+      -$ref: ./shop_by_price.yml 
+  amount: 
+    description: 
+    allOf: 
+      -$ref: ./amount.yml
+  image: 
+    description: 
+    allOf: 
+      -$ref: ./image.yml
+  price: 
+    description: 
+    allOf: 
+      -$ref: ./price.yml 
+  product: 
+    description: 
+    allOf: 
+      -$ref: ./product.yml 
+  addresses: 
+    description: 
+    allOf: 
+      -$ref: ./addresses.yml
+  orders: 
+    description:
+    allOf:
+      -$ref: ./orders.yml
