@@ -148,9 +148,9 @@ properties:
               type: string
               description: Internal URL to the image.
         max_purchase_quantity:
-          type: 'null'
+          type: object
         min_purchase_quantity:
-          type: 'null'
+          type: object
         name:
           type: string
         options:
@@ -279,7 +279,7 @@ properties:
       selected_country:
         type: string
       selected_state:
-        type: 'null'
+        type: object
         description: The state/province/region that the customer selected for the shipping estimate.
       selected_zip:
         type: string
