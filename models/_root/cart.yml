@@ -28,8 +28,15 @@ properties:
         discountedAmount:
           type: number
   discount:
-    type: 'null'
+    type: object
     description: Discount being applied to the cart in the current session.
+    properties:
+      formatted:  
+        type: string
+      value:
+        type: integer
+      currency: 
+        string
   gift_certificates:
     type: array
     description: List of gift certificates applied to the cart.
@@ -95,6 +102,15 @@ properties:
       properties:
         availability:
           type: string
+        base_price:
+          type: object
+          properties:
+            currency:
+              type: string
+            formatted:
+              type: string
+            value:
+              type: number
         brand:
           type: object
           properties:
@@ -102,9 +118,13 @@ properties:
               type: string
         can_modify:
           type: boolean
+        category_names:
+          type: array
+          items:  
+            type: string
         configurable_fields:
           type: array
-          items:
+          items: 
             type: object
         custom_fields:
           type: array
@@ -121,7 +141,14 @@ properties:
           type: string
           description: Unique ID of the coupon.
         image:
-          $ref: ../common/image.yml
+          type: object
+          properties:
+            alt:
+              type: string
+              description: Corresponding text to display for missing images, accessible screen readers, etc.
+            data:
+              type: string
+              description: Internal URL to the image.
         max_purchase_quantity:
           type: 'null'
         min_purchase_quantity:
@@ -132,7 +159,25 @@ properties:
           type: array
           items:
             type: object
+          properties:
+              id:
+                type: string
+              name:
+                type: string
+              value:
+                type: string
+              is_file:
+                type: boolean
         price:
+          type: object
+          properties:
+            currency:
+              type: string
+            formatted:
+              type: string
+            value:
+              type: number
+        price_discounted:
           type: object
           properties:
             currency:
@@ -153,7 +198,7 @@ properties:
           description: URL to remove gift certificate from the cart.
         rrp:
           type: object
-          description: Price object that defines the cart itemʼs list price (MSRP); can be used to display struck-out list prices.
+          description: Price object that defines the cart item's list price (MSRP); can be used to display struck-out list prices.
           properties:
             currency:
               type: string
@@ -161,6 +206,15 @@ properties:
               type: string
             value:
               type: integer
+        sale_price:
+          type: object
+          properties:
+            currency:
+              type: string
+            formatted:
+              type: string
+            value:
+              type: number
         show_gift_wrapping:
           type: boolean
           description: Boolean indicating whether the wrapping options are shown.
@@ -175,10 +229,21 @@ properties:
               type: string
             value:
               type: number
+        total_discounted:
+          type: object
+          properties:
+            currency:
+              type: string
+            formatted:
+              type: string
+            value:
+              type: number
         type:
           type: string
         url:
           type: string
+        variant_id:
+          type: integer
   quantity:
     type: integer
   shipping_handling:
