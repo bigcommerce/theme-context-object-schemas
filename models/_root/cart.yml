@@ -279,7 +279,7 @@ properties:
       selected_country:
         type: string
       selected_state:
-        type: object
+        type: string
         description: The state/province/region that the customer selected for the shipping estimate.
       selected_zip:
         type: string
