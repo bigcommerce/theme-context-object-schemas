@@ -148,9 +148,9 @@ properties:
               type: string
               description: Internal URL to the image.
         max_purchase_quantity:
-          type: object
+          type: integer
         min_purchase_quantity:
-          type: object
+          type: integer
         name:
           type: string
         options:
