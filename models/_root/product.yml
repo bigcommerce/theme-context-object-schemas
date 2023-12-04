@@ -148,7 +148,6 @@ properties:
       price:
         type: object
         items:  
-          type: string
           formatted:
             type: string
           value:
