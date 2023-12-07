@@ -147,7 +147,7 @@ properties:
         type: boolean
       price:
         type: object
-        items:  
+        properties:  
           formatted:
             type: string
           value:
