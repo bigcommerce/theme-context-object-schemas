@@ -1,18 +1,7 @@
 # Theme Context Object Schemas
 
-JSON schema used to generate the human-readable BigCommerce [Theme Object Reference](https://developer.bigcommerce.com/stencil-docs/reference-docs/global-objects-and-properties).
+**As of December 27, 2023, you can find all the public BigCommerce DevDocs at [https://github.com/bigcommerce/docs](https://github.com/bigcommerce/docs)!**
 
-## Directory structure
+This repository is archived and read only. The final commit has been tagged.
 
-```shell
-.
-├── circleci             # config for circleci job that runs openapi linter
-    └── config.yml       # - docs: https://meta.stoplight.io/docs/spectral
-├── doc                  # markdown files
-├── examples             # example json
-├── models               # yaml schema for various objects
-    ├── _root            # schemas for root context objects
-├── .spectral.yaml       # config for stoplight spectral openapi linter
-└── .stoplight.json      # stoplight platform configuration file
-                         # - docs: https://meta.stoplight.io/docs/platform/
-```
+This consolidation lets the BigCommerce DX team offer a more streamlined developer experience. We look forward to seeing your [issues](https://github.com/bigcommerce/docs/issues), [discussions](https://github.com/bigcommerce/docs/discussions), and [pull requests](https://github.com/bigcommerce/docs/pulls) at [bigcommerce/docs](https://github.com/bigcommerce/docs)!
